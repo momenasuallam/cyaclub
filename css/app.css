@@ -125,8 +125,8 @@ img {
 .centercards {
   max-width: 55%;
   margin: auto;
-  margin-top: 13%;
       position: fixed;
+      top: 22vh;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -288,7 +288,7 @@ img {
   .centercards {
     max-width: 80%;
     margin: auto;
-    margin-top: 35%;
+    top: 31vh;
   }
   .bottomcards {
     bottom: 12%;
@@ -347,7 +347,8 @@ img {
   .centercards {
     max-width: 100%;
     margin: auto;
-    margin-top: 45%;
+    top: 28vh;
+    padding: 2% 1% 2% 2%;
   }
   /* .roundtxt {
   padding: 1% 0px;
@@ -364,9 +365,9 @@ img {
   .silverbadge {
     top: 9%;
   } */
-  .centercards {
+  /* .centercards {
     margin-top: 50%;
-  }
+  } */
   .ccradsflex div {
     /* margin-right: -6px; */
   }
@@ -387,9 +388,9 @@ img {
   .silverbadge {
     top: 6%;
   } */
-  .centercards {
+  /* .centercards {
     margin-top: 50%;
-  }
+  } */
 }
 
 
