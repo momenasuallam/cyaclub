@@ -262,7 +262,7 @@ img {
 @media (max-width: 768px) {
   .goldbadge {
     position: fixed;
-    top: 13%;
+    top: 16vw;
     left: 2%;
   }
   .goldbadge img {
@@ -270,7 +270,7 @@ img {
   }
   .silverbadge {
     position: fixed;
-    top: 13%;
+    top: 16vw;
     right: 2%;
     text-align: end;
   }
@@ -333,12 +333,12 @@ img {
   }
 }
 @media (max-width: 600px) {
-  .goldbadge {
-    top: 12%;
+  /* .goldbadge {
+    top: 11%;
   }
   .silverbadge {
-    top: 12%;
-  }
+    top: 11%;
+  } */
 
   .rounds {
     max-width: 100%;
@@ -358,12 +358,12 @@ img {
 }
 }
 @media (max-width: 500px) {
-  .goldbadge {
+  /* .goldbadge {
     top: 9%;
   }
   .silverbadge {
     top: 9%;
-  }
+  } */
   .centercards {
     margin-top: 50%;
   }
@@ -381,23 +381,23 @@ img {
 }
 
 @media (max-width: 400px) {
-  .goldbadge {
+  /* .goldbadge {
     top: 6%;
   }
   .silverbadge {
     top: 6%;
-  }
+  } */
   .centercards {
     margin-top: 50%;
   }
 }
 
 
-@media (max-width: 375px) {
+/* @media (max-width: 375px) {
   .goldbadge {
     top: 9%;
   }
   .silverbadge {
     top: 9%;
   }
-}
+} */
