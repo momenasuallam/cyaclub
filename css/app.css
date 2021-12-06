@@ -52,11 +52,21 @@ a {
 
 main {
   padding: 0px 3% 2%;
+  height: 100vh;
+  position: relative;
 }
 .topheader {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
+      display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 0 2%;
 }
 .topheader h2 {
   font-size: 22px;
@@ -116,6 +126,9 @@ img {
   max-width: 55%;
   margin: auto;
   margin-top: 13%;
+      position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
 }
 .ccradsflex {
   display: flex;
@@ -188,7 +201,7 @@ img {
 }
 
 .bottomcards {
-  position: absolute;
+  position: fixed;
   bottom: 10%;
   left: 0;
   padding: 0 3%;
@@ -230,7 +243,7 @@ img {
 }
 
 .nextbtn {
-  position: absolute;
+  position: fixed;
   bottom: 5%;
   right: 3%;
 }
@@ -248,16 +261,16 @@ img {
 
 @media (max-width: 768px) {
   .goldbadge {
-    position: absolute;
-    top: 20%;
+    position: fixed;
+    top: 13%;
     left: 2%;
   }
   .goldbadge img {
     width: 50%;
   }
   .silverbadge {
-    position: absolute;
-    top: 20%;
+    position: fixed;
+    top: 13%;
     right: 2%;
     text-align: end;
   }
@@ -321,10 +334,10 @@ img {
 }
 @media (max-width: 600px) {
   .goldbadge {
-    top: 15%;
+    top: 12%;
   }
   .silverbadge {
-    top: 15%;
+    top: 12%;
   }
 
   .rounds {
@@ -339,13 +352,17 @@ img {
   /* .roundtxt {
   padding: 1% 0px;
 } */
+.centercards{
+  left: 0;
+    transform: translateX(0%);
+}
 }
 @media (max-width: 500px) {
   .goldbadge {
-    top: 12%;
+    top: 9%;
   }
   .silverbadge {
-    top: 12%;
+    top: 9%;
   }
   .centercards {
     margin-top: 50%;
@@ -365,12 +382,22 @@ img {
 
 @media (max-width: 400px) {
   .goldbadge {
+    top: 6%;
+  }
+  .silverbadge {
+    top: 6%;
+  }
+  .centercards {
+    margin-top: 50%;
+  }
+}
+
+
+@media (max-width: 375px) {
+  .goldbadge {
     top: 9%;
   }
   .silverbadge {
     top: 9%;
-  }
-  .centercards {
-    margin-top: 50%;
   }
 }
