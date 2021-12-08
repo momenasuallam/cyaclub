@@ -25,6 +25,7 @@ body {
   background-image: url(../img/Background\ with\ People-03.png);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   overflow: hidden;
   position: relative;
   height: 100vh;
@@ -102,7 +103,7 @@ img {
   transform: translateX(-50%);
 }
 .rounddleft {
-  margin-right: -8%;
+  margin-right: -4vw;
   position: relative;
 }
 .rounddleft img {
@@ -115,7 +116,7 @@ img {
   position: relative;
 }
 .rounddright {
-  margin-left: -8%;
+  margin-left: -4vw;
   position: relative;
 }
 .rounddright img {
@@ -151,11 +152,11 @@ img {
 .roundtxt {
   position: absolute;
   top: 0px;
-  left: 15%;
-  padding: 2% 0%;
+ left: 3.5vw;
+    padding: 0.6vw 0;
 }
 .twoleftround {
-  left: 10% !important;
+  left: 2.5vw !important;
 }
 .roundtxt small {
   font-family: "Russo One", sans-serif;
@@ -244,8 +245,8 @@ img {
 
 .nextbtn {
   position: fixed;
-  bottom: 5%;
-  right: 3%;
+  bottom: 3vw;
+  right: 3vw;
 }
 .nextbtn div {
 }
@@ -253,7 +254,7 @@ img {
   background-image: linear-gradient(to right, #e7e7e7, #9aa7b1);
   border: 1px solid #e7e7e7;
   border-radius: 50%;
-  padding: 40% 20%;
+  padding: 1.4vw 1vw;
   color: #050017;
   font-family: "Russo One", sans-serif;
   font-size: 1.2vw;
@@ -275,7 +276,7 @@ img {
     text-align: end;
   }
   .silverbadge img {
-    width: 50%;
+    width: 50%; 
   }
   .topheader h2 {
     font-size: 12px;
@@ -297,12 +298,16 @@ img {
     /* padding: 3px; */
     margin: 0 2px 0 0;
   }
-  .nextbtn {
-    right: 4%;
-  }
-  .nextbtn a {
-    font-size: 14px;
-  }
+
+  .rounddleft {
+    margin-right: -7vw;
+}
+.rounddright {
+    margin-left: -7vw;
+}
+.twoleftround {
+    left: 5vw !important;
+}
   .roundtxt {
     left: 15%;
     padding: 3% 0%;
@@ -311,7 +316,7 @@ img {
     font-size: 1.5vw;
   }
   .roundtxt p {
-    font-size: 2.2vw;
+    font-size: 1.8vw;
   }
   .roundtxt2 {
     left: 31%;
@@ -333,72 +338,23 @@ img {
   }
 }
 @media (max-width: 600px) {
-  /* .goldbadge {
-    top: 11%;
-  }
-  .silverbadge {
-    top: 11%;
-  } */
-
   .rounds {
     max-width: 100%;
     width: 100%;
   }
   .centercards {
     max-width: 100%;
+    width: 70%;
     margin: auto;
     top: 28vh;
     padding: 2% 1% 2% 2%;
   }
-  /* .roundtxt {
-  padding: 1% 0px;
-} */
-.centercards{
-  left: 0;
-    transform: translateX(0%);
-}
-}
-@media (max-width: 500px) {
-  /* .goldbadge {
-    top: 9%;
-  }
-  .silverbadge {
-    top: 9%;
-  } */
-  /* .centercards {
-    margin-top: 50%;
-  } */
-  .ccradsflex div {
-    /* margin-right: -6px; */
-  }
-  .ccradsflex img {
-    /* left: -5px;
-    top: -1px;
-    padding: 4% 15%; */
-  }
   .nextbtn {
-    right: 6%;
+    bottom: 5vw;
   }
+  .nextbtn a {
+      font-size: 2.5vw;
+    padding: 2.2vw 1vw;
+  }
+
 }
-
-@media (max-width: 400px) {
-  /* .goldbadge {
-    top: 6%;
-  }
-  .silverbadge {
-    top: 6%;
-  } */
-  /* .centercards {
-    margin-top: 50%;
-  } */
-}
-
-
-/* @media (max-width: 375px) {
-  .goldbadge {
-    top: 9%;
-  }
-  .silverbadge {
-    top: 9%;
-  }
-} */
