@@ -70,13 +70,13 @@ main {
     padding: 0 2%;
 }
 .topheader h2 {
-  font-size: 22px;
+  font-size: 2vw;
   text-shadow: 2px -3px 9px #f99746;
   -webkit-text-stroke: 1px white;
   color: #f997468f;
   font-family: "Black Ops One", cursive;
   font-weight: 300;
-  margin-bottom: 2px;
+  margin-bottom: 8px;
 }
 .goldbadge {
   position: absolute;
@@ -88,10 +88,11 @@ main {
   right: 2%;
 }
 .goldbadge img {
-  width: 60%;
+  width: 5vw;
 }
-img {
-  width: 60%;
+.silverbadge img {
+  width: 5vw;
+  display: block;
 }
 .rounds {
   display: flex;
@@ -201,6 +202,74 @@ img {
   font-size: 0.6vw;
 }
 
+.roundsmid{
+  position: absolute;
+    top: 0vw;
+    left: 25.5vw;
+}
+.roundsfull{
+  position: relative;
+  margin: auto;
+}
+.roundsfull img{
+  width: 100%;
+  max-width: 55vw;
+  position: relative;
+}
+.roundsful1{
+    position: absolute;
+    top: 5vw;
+    left: 4vw;
+}
+.roundsful2{
+    position: absolute;
+    top: 5vw;
+    right: 3.5vw;
+}
+.roundtxtp small {
+  font-family: "Russo One", sans-serif;
+  color: #000000;
+
+  font-size: 1vw;
+  display: block;
+  margin-bottom: 0.2vw;
+}
+.roundtxtp p {
+  font-family: "Russo One", sans-serif;
+  color: #000000;
+  font-size: 1.2vw;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+.roundtxtp p a {
+  font-family: "Russo One", sans-serif;
+  color: #105fbe;
+}
+.roundsmid small {
+  font-size: 1vw;
+  font-family: "Russo One", sans-serif;
+  padding-top: 19%;
+  display: block;
+   text-align: center;
+}
+.roundsmid h3 {
+  font-size: 2.2vw;
+  font-family: "Black Ops One", cursive;
+  color: #105fbe;
+  margin: 0.2vw auto 0.6vw;
+  text-align: center;
+}
+.roundsmid p {
+  color: #5f6c76;
+  font-family: "Russo One", sans-serif;
+  font-size: 0.8vw;
+    text-align: center;
+    margin-top: 0vw;
+}
+
+
+
+
 .bottomcards {
   position: fixed;
   bottom: 10%;
@@ -263,23 +332,23 @@ img {
 @media (max-width: 768px) {
   .goldbadge {
     position: fixed;
-    top: 16vw;
+    top: 1vw;
     left: 2%;
   }
   .goldbadge img {
-    width: 50%;
+    /* width: 50%; */
   }
   .silverbadge {
     position: fixed;
-    top: 16vw;
+    top: 1vw;
     right: 2%;
     text-align: end;
   }
   .silverbadge img {
-    width: 50%; 
+    /* width: 50%;  */
   }
   .topheader h2 {
-    font-size: 12px;
+    /* font-size: 12px; */
     font-weight: 100;
   }
   .rounds {
