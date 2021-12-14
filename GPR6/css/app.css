@@ -66,9 +66,8 @@ main {
   position: relative;
 }
 .topheader {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
+  display: grid;
+  align-items: center;
   position: fixed;
   width: 100%;
   top: 0;
@@ -87,6 +86,7 @@ main {
 .goldbadge {
   position: absolute;
   top: 3%;
+  left: 2%;
 }
 .silverbadge {
   position: absolute;
@@ -335,21 +335,25 @@ main {
   width: 53vw;
   margin: auto;
   position: fixed;
-  top: 25vh;
+  top: 22vh;
   left: 50%;
   transform: translateX(-50%);
 }
 .plyerflex {
-  display: flex;
+  display: grid;
   position: relative;
-  justify-content: center;
   align-items: center;
+  grid-template-columns: 38% 22% 38%;
+
+  grid-gap: 1rem;
 }
 .playcardcol {
 }
 .playcardcol1,
 .playcardcol2 {
-  display: flex;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 0.5em;
 }
 .playcardcol1 div,
 .playcardcol2 div {
@@ -370,7 +374,13 @@ main {
   padding: 0 2vw;
 }
 .playcardvs img {
-  width: 10vw;
+  width: 8vw;
+  position: relative;
+  display: block;
+  text-align: center;
+}
+.opacity-cards {
+  opacity: 1;
 }
 
 @media (max-width: 768px) {
@@ -451,6 +461,10 @@ main {
   }
   .plyerdiv {
     width: 75vw;
+    transform: translateX(-55%);
+  }
+  .plyerflex {
+    grid-template-columns: 42% 15% 43%;
   }
 }
 @media (max-width: 600px) {
