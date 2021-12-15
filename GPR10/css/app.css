@@ -1,9 +1,5 @@
 :root {
   --white: #ffffff;
-  --maincolor: #e40046;
-  --pricolor: #ff395c;
-  --black: #000000;
-  --overlay: #a11b44a6;
   --overlayhead: #e5e5e5;
 }
 *,
@@ -13,10 +9,7 @@
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Russo+One&display=swap");
-/* font-family: 'Black Ops One', cursive;
-font-family: 'Russo One', sans-serif; */
 
-/* Main stuff */
 body {
   margin: 0px;
   padding: 0px;
@@ -31,15 +24,6 @@ body {
   height: 100vh;
   font-size: 62.5%;
 }
-.playbg {
-  background-image: url(../img/playerbg.png) !important;
-}
-.bgbottomimg {
-  width: 100%;
-  position: absolute;
-  bottom: 0px;
-  left: 0px;
-}
 h1,
 h2,
 h3,
@@ -53,13 +37,6 @@ a {
 a {
   text-decoration: none;
 }
-.fontblack {
-  font-family: "Black Ops One", cursive;
-}
-.fontrusso {
-  font-family: "Russo One", sans-serif;
-}
-
 main {
   padding: 0px 3% 2%;
   height: 100vh;
@@ -100,36 +77,6 @@ main {
   width: 5vw;
   display: block;
 }
-.rounds {
-  display: flex;
-  align-items: flex-end;
-  max-width: 70%;
-  left: 50%;
-  position: absolute;
-  top: 0px;
-  transform: translateX(-50%);
-}
-.rounddleft {
-  margin-right: -4vw;
-  position: relative;
-}
-.rounddleft img {
-  width: 100%;
-}
-.rounddcenter img {
-  width: 100%;
-}
-.rounddcenter {
-  position: relative;
-}
-.rounddright {
-  margin-left: -4vw;
-  position: relative;
-}
-.rounddright img {
-  width: 100%;
-}
-
 .centercards {
   max-width: 55%;
   margin: auto;
@@ -155,63 +102,6 @@ main {
   position: relative;
   left: -3%;
   top: -2%;
-}
-.roundtxt {
-  position: absolute;
-  top: 0px;
-  left: 3.5vw;
-  padding: 0.6vw 0;
-}
-.twoleftround {
-  left: 2.5vw !important;
-}
-.roundtxt small {
-  font-family: "Russo One", sans-serif;
-  color: #000000;
-
-  font-size: 0.9vw;
-  display: block;
-  margin-bottom: 0.2vw;
-}
-.roundtxt p {
-  font-family: "Russo One", sans-serif;
-  color: #000000;
-  font-size: 1vw;
-  margin-bottom: 0px;
-  margin-top: 0px;
-}
-.roundtxt p a {
-  font-family: "Russo One", sans-serif;
-  color: #105fbe;
-}
-.roundtxt2 {
-  position: absolute;
-  text-align: center;
-  top: 0px;
-  left: 32%;
-}
-.roundtxt2 small {
-  font-size: 0.9vw;
-  font-family: "Russo One", sans-serif;
-  padding-top: 19%;
-  display: block;
-}
-.roundtxt2 h3 {
-  font-size: 2vw;
-  font-family: "Black Ops One", cursive;
-  color: #105fbe;
-  margin: 0.2vw auto 0.6vw;
-}
-.roundtxt2 span {
-  color: #5f6c76;
-  font-family: "Russo One", sans-serif;
-  font-size: 0.6vw;
-}
-
-.roundsmid {
-  position: absolute;
-  top: 0vw;
-  left: 25.5vw;
 }
 .roundsfull {
   position: relative;
@@ -250,6 +140,11 @@ main {
 .roundtxtp p a {
   font-family: "Russo One", sans-serif;
   color: #105fbe;
+}
+.roundsmid {
+  position: absolute;
+  top: 0vw;
+  left: 25.5vw;
 }
 .roundsmid small {
   font-size: 1vw;
@@ -303,24 +198,15 @@ main {
   display: flex;
 }
 .flexinnerbc div {
-  /* background-image: url(../img/border2.svg);
-  padding: 8px;
-    background-repeat: no-repeat;
-    background-size: contain; */
   margin: 0 10px 0 0;
 }
 .flexinnerbc div:last-child {
   margin: 0px !important;
 }
-.flexinnerbc img {
-}
-
 .nextbtn {
   position: fixed;
   bottom: 3vw;
   right: 3vw;
-}
-.nextbtn div {
 }
 .nextbtn a {
   background-image: linear-gradient(to right, #e7e7e7, #9aa7b1);
@@ -331,47 +217,6 @@ main {
   font-family: "Russo One", sans-serif;
   font-size: 1.2vw;
 }
-.plyerdiv {
-  width: 53vw;
-  margin: auto;
-  position: fixed;
-  top: 25vh;
-  left: 50%;
-  transform: translateX(-50%);
-}
-.plyerflex {
-  display: flex;
-  position: relative;
-  justify-content: center;
-  align-items: center;
-}
-.playcardcol {
-}
-.playcardcol1,
-.playcardcol2 {
-  display: flex;
-}
-.playcardcol1 div,
-.playcardcol2 div {
-  background-image: url(../img/borderplyer.svg);
-  padding: 10px 0px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  padding: 0.6vw 0.6vw;
-  margin-bottom: 0.6vw;
-  margin-right: 0.6vw;
-}
-.playcardcol1 div img,
-.playcardcol2 div img {
-  width: 100%;
-  position: relative;
-}
-.playcardvs {
-  padding: 0 2vw;
-}
-.playcardvs img {
-  width: 10vw;
-}
 
 @media (max-width: 768px) {
   .goldbadge {
@@ -379,20 +224,13 @@ main {
     top: 1vw;
     left: 2%;
   }
-  .goldbadge img {
-    /* width: 50%; */
-  }
   .silverbadge {
     position: fixed;
     top: 1vw;
     right: 2%;
     text-align: end;
   }
-  .silverbadge img {
-    /* width: 50%;  */
-  }
   .topheader h2 {
-    /* font-size: 12px; */
     font-weight: 100;
   }
   .rounds {
@@ -408,56 +246,10 @@ main {
     bottom: 12%;
   }
   .flexinnerbc div {
-    /* padding: 3px; */
     margin: 0 2px 0 0;
-  }
-
-  .rounddleft {
-    margin-right: -7vw;
-  }
-  .rounddright {
-    margin-left: -7vw;
-  }
-  .twoleftround {
-    left: 5vw !important;
-  }
-  .roundtxt {
-    left: 15%;
-    padding: 3% 0%;
-  }
-  .roundtxt small {
-    font-size: 1.5vw;
-  }
-  .roundtxt p {
-    font-size: 1.8vw;
-  }
-  .roundtxt2 {
-    left: 31%;
-  }
-  .roundtxt2 small {
-    font-size: 2vw;
-    padding-top: 21%;
-  }
-  .roundtxt2 h3 {
-    font-size: 4vw;
-    font-family: "Black Ops One", cursive;
-    color: #105fbe;
-    margin: 0vw auto 0.8vw;
-  }
-  .roundtxt2 span {
-    color: #5f6c76;
-    font-family: "Russo One", sans-serif;
-    font-size: 1.2vw;
-  }
-  .plyerdiv {
-    width: 75vw;
   }
 }
 @media (max-width: 600px) {
-  .rounds {
-    max-width: 100%;
-    width: 100%;
-  }
   .centercards {
     max-width: 100%;
     width: 70%;
@@ -472,10 +264,24 @@ main {
     font-size: 2.5vw;
     padding: 2.2vw 1vw;
   }
-  .playcardcol1 div,
-  .playcardcol2 div {
-    padding: 1vw;
-    margin-bottom: 1vw;
-    margin-right: 1vw;
+}
+@media (min-width: 2000px) {
+  .roundsful1 {
+    top: 5vw;
+    left: 3.3vw;
+  }
+  .roundtxtp p {
+    font-size: 1.1vw;
+  }
+  .roundsmid {
+    left: 25.5vw;
+    top: -0.1vw;
+  }
+  .roundsmid h3 {
+    margin: 0.1vw auto 0.9vw;
+  }
+  .roundsful2 {
+    top: 5vw;
+    right: 5vw;
   }
 }
