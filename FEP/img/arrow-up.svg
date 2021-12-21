@@ -1,0 +1,21 @@
+<svg id="Group_8730" data-name="Group 8730" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="66.126" height="66.126" viewBox="0 0 66.126 66.126">
+  <defs>
+    <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#c9c9c9"/>
+      <stop offset="0.143" stop-color="#adadad"/>
+      <stop offset="0.325" stop-color="#fff"/>
+      <stop offset="0.48" stop-color="#e5e5e5"/>
+      <stop offset="0.682" stop-color="#bababa"/>
+      <stop offset="1" stop-color="#afafaf"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.028" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#9ea9b2"/>
+      <stop offset="1" stop-color="#fdfdfd"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_8729" data-name="Group 8729" transform="translate(0 0)">
+    <path id="Path_13873" data-name="Path 13873" d="M66.126,69.708H0V3.582H66.126ZM2.186,67.522H63.94V5.768H2.186Z" transform="translate(0 -3.582)" fill="url(#linear-gradient)"/>
+    <rect id="Rectangle_2584" data-name="Rectangle 2584" width="59.479" height="59.479" transform="translate(3.323 3.323)" fill="none" stroke="#707070" stroke-miterlimit="10" stroke-width="0.394"/>
+  </g>
+  <path id="arrow-thick-right" d="M17.88,34.875H15.189V24.754H1.125v-13.5H15.188V1.128l2.72,0L34.779,18.022ZM3.375,22.5H17.439v9.633L31.6,18.018,17.438,3.844V13.5H3.375Z" transform="translate(18.001 15.061)" fill="url(#linear-gradient-2)"/>
+</svg>
