@@ -12,6 +12,11 @@
 /* font-family: 'Black Ops One', cursive;
 font-family: 'Russo One', sans-serif; */
 
+@font-face {
+  font-family: blackOpsOne;
+  src: url(../font/BlackOpsOne-Regular.ttf);
+}
+
 body {
   margin: 0px;
   padding: 0px;
@@ -58,7 +63,7 @@ main {
   text-shadow: 2px -3px 9px #f99746;
   -webkit-text-stroke: 1px white;
   color: #f997468f;
-  font-family: "Black Ops One", cursive;
+  font-family: blackOpsOne;
   font-weight: 300;
   margin-bottom: 8px;
 }
@@ -191,7 +196,7 @@ main {
 }
 .roundsmid h3 {
   font-size: 2.2vw;
-  font-family: "Black Ops One", cursive;
+  font-family: blackOpsOne;
   color: #105fbe;
   margin: 0.2vw auto 0.6vw;
   text-align: center;
