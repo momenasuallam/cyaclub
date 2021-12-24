@@ -386,7 +386,18 @@ color: #5F6C76;
   .roundsfull img {
     width: 55vw;
 }
-
+.scren0border span{
+  top: 23.7vw !important;
+}
+.imgspantxt{
+  top: 29.5vw !important;
+}
+.s03border span{
+  top: 24.5vw !important;
+}
+.s03bottommore {
+    top: 24.4vw !important;
+}
 }
 
 /* Screen 3 CSS */
@@ -503,7 +514,7 @@ color: #5F6C76;
     top: -9.5px;
 }
 .s03border span {
-    top: 24.6vw;
+    top: 31.2vw !important;
 }
 .s03bottommore{
          top: 24.6vw !important;
@@ -562,6 +573,18 @@ color: #5F6C76;
     text-align: center;
     position: absolute;
     top: 23.9vw;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.imgspantxt {
+    font-size: 0.6vw;
+    font-weight: 300;
+    font-family: 'Russo One', sans-serif;
+    display: block;
+    text-align: center;
+    position: absolute;
+     top: 29.8vw;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -650,11 +673,17 @@ position: fixed;
 .scren0border span {
     top: 29.8vw;
 }
+.imgspantxt {
+    top: 29.8vw;
+}
 }
 @media(max-width:450px)
 {
 .scren0border span {
     top: 29.8vw;
+}
+.imgspantxt {
+    top: 26vw !important;
 }
 .s09flexw2 {
     position: relative;
@@ -669,6 +698,7 @@ position: fixed;
 .scren0border span {
     top: 30.15vw;
 }
+
 }
 
 /* Screen 6 CSS */
@@ -678,9 +708,7 @@ position: fixed;
 .s06flexw1{
   width: 20vw;
 }
-.imgspantxt{
-  top: 29.8vw !important;
-}
+
 @media(min-width:1600px)
 {
   .s06flexw1{
@@ -690,7 +718,13 @@ position: fixed;
 @media(max-width:1530px)
 {
   .imgspantxt {
-    top: 25.9vw !important;
+    top: 25.6vw;
+}
+}
+@media(max-width:1390px)
+{
+  .imgspantxt {
+    top: 25.9vw;
 }
 }
 @media(max-width:400px)
