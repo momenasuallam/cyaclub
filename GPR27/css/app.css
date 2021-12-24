@@ -1,0 +1,253 @@
+:root {
+  --white: #ffffff;
+  --overlayhead: #e5e5e5;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Russo+One&display=swap");
+/* font-family: 'Black Ops One', cursive;
+font-family: 'Russo One', sans-serif; */
+
+@font-face {
+  font-family: blackOpsOne;
+  src: url(../font/BlackOpsOne-Regular.ttf);
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  background-image: url(../img/playerbg.png) !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+  position: relative;
+  height: 100vh;
+  font-size: 62.5%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+a {
+  /* font-family: 'Russo One', sans-serif;  */
+}
+a {
+  text-decoration: none;
+}
+main {
+  padding: 0px 3% 2%;
+  height: 100vh;
+  position: relative;
+}
+.topheader {
+  display: grid;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding: 0 2%;
+}
+
+.roundsmid {
+  position: absolute;
+  top: 0vw;
+  left: 25.5vw;
+}
+.roundsfull {
+  position: relative;
+  margin: auto;
+}
+.roundsfull img {
+  width: 100%;
+  max-width: 55vw;
+  position: relative;
+}
+.roundsmid h5 {
+  font-size: 1.4vw;
+  font-family: blackOpsOne;
+  color: #105fbe;
+  margin: 1vw auto 0vw -1vw;
+  font-weight: 300;
+}
+.tickerline {
+  position: absolute;
+  bottom: 7vw;
+  background: rgb(65, 19, 99);
+  background: linear-gradient(
+    0deg,
+    rgba(65, 19, 99, 1) 0%,
+    rgba(92, 30, 138, 1) 3%,
+    rgba(70, 20, 105, 0.9878326330532213) 100%,
+    rgba(109, 38, 162, 1) 100%,
+    rgba(112, 39, 166, 1) 100%
+  );
+  width: 100%;
+  left: 0;
+  text-align: center;
+}
+.tickerline p {
+  color: #1c0214;
+  font-size: 1vw;
+  margin: 0.9vw 0;
+}
+.nextbtn {
+  position: fixed;
+  bottom: 3vw;
+  right: 3vw;
+}
+.nextbtn a {
+  background-image: linear-gradient(to right, #e7e7e7, #9aa7b1);
+  border: 1px solid #e7e7e7;
+  border-radius: 50%;
+  padding: 1.4vw 1vw;
+  color: #050017;
+  font-family: "Russo One", sans-serif;
+  font-size: 1.2vw;
+}
+.Winnerdiv {
+  width: 52vw;
+  margin: auto;
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%);
+  top: 11vw;
+  display: flex;
+  justify-content: space-between;
+}
+.winnercard {
+  position: relative;
+}
+.wc1 {
+  margin-right: 6vw;
+}
+.winnercardimg {
+  width: 100%;
+}
+.winnertop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0.3vw;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.winnertop h2 {
+  font-size: 1.8vw;
+  text-shadow: 2px -3px 9px #f99746;
+  -webkit-text-stroke: 0.2px white;
+  color: #f997468f;
+  font-family: blackOpsOne;
+  font-weight: 100;
+  margin-right: 2vw;
+}
+.winnerbatch {
+  width: 2.5vw;
+}
+.winnerpoints {
+  position: absolute;
+  width: 100%;
+  bottom: 7.8vw;
+  padding: 0 2.5vw;
+}
+.wpflex {
+  display: flex;
+  justify-content: space-between;
+}
+.wpflex p {
+  font-family: "Russo One", sans-serif;
+  margin: 0 0 0.6vw 0;
+  font-size: 1.2vw;
+}
+.winnerprof {
+  position: absolute;
+  top: 5.5vw;
+  left: 3vw;
+}
+.ccradsflex {
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+.ccradsflex div {
+  background-image: url(../img/border1.2.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 0.24vw;
+  margin-right: 0.2vw;
+}
+.ccradsflex img {
+  width: 3.6vw;
+  position: relative;
+  left: 0%;
+  top: 0%;
+}
+.ccradsflex div:nth-child(3) img {
+  left: -0.1vw;
+}
+.ccradsflex div:nth-child(4) img {
+  left: -0.1vw;
+}
+.ccradsflex p {
+  font-family: blackOpsOne;
+  font-weight: 100;
+  margin: 0.3vw 0 0 0;
+  font-size: 1vw;
+  color: #5a6d7b;
+  text-align: center;
+}
+.winnertotal {
+  position: absolute;
+  bottom: 3vw;
+}
+.winnertotal h6 {
+  font-size: 1.8vw;
+  text-shadow: 2px -3px 9px #105fbe;
+  -webkit-text-stroke: 0.2px white;
+  color: #105fbe;
+  font-family: blackOpsOne;
+  font-weight: 100;
+  margin: 0 0 0 3.5vw;
+}
+@media (max-width: 800px) {
+}
+@media (max-width: 600px) {
+  .nextbtn {
+    bottom: 5vw;
+  }
+  .nextbtn a {
+    font-size: 2.5vw;
+    padding: 2.2vw 1vw;
+  }
+  .tickerline {
+    bottom: 12vw;
+  }
+  .tickerline p {
+    font-size: 1.1vw;
+  }
+  .winnertotal h6{
+    webkit-text-stroke: 0.2px white !important;
+  }
+  .winnertop h2{
+    webkit-text-stroke: 0.2px white !important;
+  }
+}
+@media (min-width: 2000px) {
+  .roundsfull img {
+    width: 55vw;
+}
+  .winnercardimg {
+  width: 23vw;
+}
+}
