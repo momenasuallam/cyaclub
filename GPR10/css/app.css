@@ -271,22 +271,8 @@ main {
   }
 }
 @media (min-width: 2000px) {
-  .roundsful1 {
-    top: 5vw;
-    left: 3.3vw;
-  }
-  .roundtxtp p {
-    font-size: 1.1vw;
-  }
-  .roundsmid {
-    left: 25.5vw;
-    top: -0.1vw;
-  }
-  .roundsmid h3 {
-    margin: 0.1vw auto 0.9vw;
-  }
-  .roundsful2 {
-    top: 5vw;
-    right: 5vw;
-  }
+  .roundsfull img {
+    width: 55vw;
+}
+
 }
